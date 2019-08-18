@@ -1,7 +1,7 @@
 # Proof of concept for Serenity with JBehave
 
 
-###1. How to store scenarios in files?
+### 1. How to store scenarios in files?
 
 * *.feature:
     In Cucumber, scenarios are stored in `Feature Files`, which contain an overall description of a feature as well as
@@ -32,13 +32,13 @@
 For more details, please visit [The Serenity Reference Manual](http://thucydides.info/docs/serenity-staging).
 
 
-###2. How to execute scenarios belongs to a specified *.storry file?
+### 2. How to execute scenarios belongs to a specified *.storry file?
 
 * `java <class> -D<absolute path of the serenity.properties file>`
 * example: `java BuyCarOnEbay -Dproperties=/dev/workspaces/serenity-tutorials/serenity-ebay-demo/serenity.properties`
 
 
-###3. JIRA Integration
+### 3. JIRA Integration
 
 * Configuration via `serenity.properties` file
     * jira.url=http://jira.hu.app
@@ -57,7 +57,7 @@ For more details, please visit [The Serenity Reference Manual](http://thucydides
     ````
 
 
-###4. How to build this project and generate reports
+### 4. How to build this project and generate reports
 
 * In order to run the all stories defined under `resources/stories` directory and generate JSON + HTML reports use `mvn clean verify` command.
 * JSON files locate under `<project home>/target/site/serenity` directory.
